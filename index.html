@@ -12,8 +12,8 @@
     <a href="#home" class="w3-bar-item w3-button"><b>HCI</b> Manifesto</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
       <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
     </div>
   </div>
 </div>
@@ -30,45 +30,49 @@
 <div class="w3-content w3-padding" style="max-width:1564px">
 
     <!-- About Section -->
-    <div class="w3-container w3-padding-32" id="about">
+    <div class="w3-container w3-padding-25" id="about">
       <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
       <h4 class="w3-border-light-grey w3-padding-10">Me</h3>      
-      <p>Hello World!  My name is Tom and at time of writing I am a Sophomore at WPI.
-      </p>
+      <p>Hello World!  My name is Tom and at time of writing I am a Sophomore at WPI.  Before we get into the design philosophy that I have had this term in Human Computer Interaction, I’m going to tell you a little bit about me so you can have a better frame of reference for where these ideas are founded.  I am someone who has always been around computers.  Ever since elementary school, I’ve been exposed to the internet and have seen the fads of design come and go (gradiented buttons were quite the time).  I have also been programming for six years now, and have been able to grow out of the “it’s functional” stage of my career, now focusing on both the usability of the program as well as the features included in it.  My work tends to bend towards website development, and with ‘flat’ and ‘minimal’ type designs being so popular in the past 2 years, the projects that I have contributed to have some of this reflected in them (take, for instance, this webpage!). </p>
       <h4 class="w3-border-light-grey w3-padding-10">Design Thoughts</h3>
+        <p>I am someone that tries to look at the practical purpose of the programs that I create.  Throughout the class, there were very real applications of the concepts that we were learning.  We were encouraged to explore the real world applications of each project to aide in the development of our project.  Along these lines, if the projects are made to be used by a person, why not ask the person what they want to do with the application and how they want to use it?  This is the theory behind “Wizard of Oz” user testing, a personal favorite of the course. http://www.usabilitynet.org/v3/tools/wizard.htm</p>
+        <p>In Tension and Wellbeing, this technique helped us target use cases and decision paths in a seemingly infinite field provided by FlowXO and Affectiva.  By understanding what people would actually like to do with the idea that we created, the implementation became much easier to visualize.  For Tension we used slack to simulated the bot interactions, and for Wellbeing we made charts monitoring engagement on the fly and gathered what information the user would be looking for intuitively on our presenter HUD.</p>
+        <p>For Wellbeing we were even able to do user testing before we had put keyboard to text editor by utilizing pen and paper wire-framing. We were able to quickly draw up new scenes and design ideas for the HUD.  We sometimes were able to mix and match some HUD scenes to see how the user would understand traveling back and forth for multiple pages.  From this we realized that we would be better off keeping the information to one screen size and to avoid segmenting the information on different pages. https://medium.com/@rachelbinx/why-you-should-be-prototyping-e4f7d55a6848</p>
+        <p>While screenshots and designing UI mockups on a computer can more closely emulate the final product, I have found that pen and paper wire-framing forces the designer to be very direct one what they are attempting to test.  The designer needs to hand draw every detail that they think is important, so the functionality is the complete focus of the wireframe.  Whereas on a digital wireframe, it takes much less time to add superfluous flourishes to the design being tested.</p>
+        <p>Once we have enough data the group naturally turns to building the project and the biggest problem awaits them. How are we going to know what to use?  In the beginning of the course there were so many options given on the toolchain that it was overwhelming.  In contrast, the end of the course provided a single suggestion per project and left the goal open ended.  Both sections provided their own challenges but required slightly different design considerations.  For the first half, the process that was used to determine the tools was brief research into each of the suggestions.  This included finding sample projects to get a sense of the scope that a simple and complex project would look like.  We didn’t want anything that would need a significant investment to do a basic hello world, but required something that scaled up well and was not limited to a sandboxed “easy” tool.  Later in the term was more open ended in terms of the aim of the project, but the tooling options were noticeably reduced.  Each project had an SDK that we were told to use and make something with.  For ease of access for others, each project was done in JavaScript. JS in it of itself presented issues because of how loose it is with its requirements and data types, posing a small technical challenge.  This was not as bad as actually finding the direction and modules for these projects.  To get started on these we first did our prototyping and user testing to get the idea nailed down.  We then scowered npm for readymade solutions to some of the challenges posed in making our project a reality.  For example, in Wellbeing, we have graphs and gauges to facilitate the communication of data at a glance to the presenter.  Both of these utilize node modules and allowed the design of the project to evolve rapidly.  When evaluating if the module was worth integrating into the codebase, we made sure to read documentation to determine how much time would be lost in order to do so.</p>
     </div>
 
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
-  </div>
+   </div>
 
   <div class="w3-row-padding">
     <div class="w3-col l9 m8 w3-margin-bottom">
       <div class="w3-display-container w3-border-bottom w3-border-light-grey">
         <div class="w3-display-topleft w3-black w3-padding">Good Design, Bad Design</div>
-        <a href="https://medium.com/@tomwhite_40233/bad-design-and-security-implications-657ac8bcdd30"><img src="goodbad.png" alt="House" style="width:30%"></a>
+        <a href="https://medium.com/@tomwhite_40233/bad-design-and-security-implications-657ac8bcdd30"><img src="goodbad.PNG" alt="House" style="width:30%"></a>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum ex quod vel quas, nemo optio dignissimos nam sunt commodi! Laboriosam distinctio pariatur vel qui perspiciatis ipsa eveniet consequuntur exercitationem eaque.</p>
       </div>
     </div>
     <div class="w3-col l9 m6 w3-margin-bottom">
       <div class="w3-display-container w3-border-bottom w3-border-light-grey">
         <div class="w3-display-topleft w3-black w3-padding">Design For Others</div>
-        <a href="https://medium.com/@matticoli/design-for-others-redesigning-a-makerspace-website-to-target-tourists-27bea1b36483"><img src="others.png" alt="House" style="width:30%"></a>
+        <a href="https://medium.com/@matticoli/design-for-others-redesigning-a-makerspace-website-to-target-tourists-27bea1b36483"><img src="others.PNG" alt="House" style="width:30%"></a>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, quas! Dignissimos quod excepturi itaque? Aliquam repellat consequuntur nisi qui eaque quia atque enim, ab maxime, voluptates obcaecati earum magnam ipsum!</p>
       </div>
     </div>
     <div class="w3-col l9 m6 w3-margin-bottom">
       <div class="w3-display-container w3-border-bottom w3-border-light-grey">
         <div class="w3-display-topleft w3-black w3-padding">Design For Tension</div>
-        <a href="https://medium.com/@tawadrosthomas/design-for-tension-5d7a61cd19d1"><img src="tension.png" alt="House" style="width:30%"></a>
+        <a href="https://medium.com/@tawadrosthomas/design-for-tension-5d7a61cd19d1"><img src="tension.PNG" alt="House" style="width:30%"></a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur vero, illo nulla excepturi labore asperiores reprehenderit quidem, similique odit, praesentium iste dignissimos vel? Eveniet commodi mollitia tempora dolores nesciunt placeat!</p>
       </div>
     </div>
     <div class="w3-col l9 m6 w3-margin-bottom">
       <div class="w3-display-container w3-border-bottom w3-border-light-grey">
         <div class="w3-display-topleft w3-black w3-padding">Design For Wellbeing</div>
-        <a href="https://medium.com/@justinkreiselman/design-for-wellbeing-d83a30cc12e8"><img src="wellbeing.png" alt="House" style="width:30%"></a>
+        <a href="https://medium.com/@justinkreiselman/design-for-wellbeing-d83a30cc12e8"><img src="wellbeing.PNG" alt="House" style="width:30%"></a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure earum nulla explicabo exercitationem incidunt reprehenderit, quidem optio nihil qui voluptatibus sapiente, quas aut esse! Esse voluptatibus rem modi quo eius?</p>
       </div>
     </div>
